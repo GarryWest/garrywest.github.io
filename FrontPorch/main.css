@@ -1,0 +1,223 @@
+/* Reset *?
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+ */
+
+ h1 {
+ 	font: 16px Arial black;
+ }
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+p {
+	margin-top: 5px;
+}
+
+body {
+		/*background: linear-gradient(red, pink, blue);*/
+		background: url("images/sign2tile.jpg");
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+ul, li {
+	display: inline-block;
+}
+
+li {
+	  padding-right: 5px;
+}
+
+
+footer {
+	/*background: #f2f2f2;*/
+	padding: 10px 10px 5px 10px;
+	/*position: absolute;*/
+	bottom: 0;
+	width: 98%;
+}
+
+.group {
+	clear: both;
+}
+
+.topdiv {
+	margin-bottom: 50px;
+}
+
+.absolute-right {
+	float: right;
+	position: absolute;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.left-25 {
+	background: linear-gradient(#99CCFF, white);
+	width: 22%;
+	float: left;
+	padding-left: 1%;
+}
+
+.right {
+	float: right;
+}
+
+.right-75 {
+	background: linear-gradient(#99CCFF, white);
+	width: 68%;
+	float: right;
+	padding-left: 1%;
+}
+
+.div-center {
+	text-align: center;
+}
+
+.pad-bottom {
+	background: linear-gradient(#99CCFF, white);
+	padding-bottom: 25px;
+}
+
+.text-search {
+	height: 30px;
+	width: 50%;
+
+	background: url("images/microphone.png");
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	border: 1px solid #4285f4;
+	outline: none;
+}
+
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: navy;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  background: #4285f4;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.btn-alt {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+}
+.btn-alt:hover {
+  background: #fff;
+  color: #648880;
+}
+
+/*
+  ========================================
+  Rows
+  ========================================
+*/
+
+.row {
+	margin-top: 15px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.clear-all {
+	clear: both;
+}
+
+/*
+  =======================================
+  Google Logo
+  =======================================
+ */
+
+.logo {
+	margin-top: 150px;
+}
